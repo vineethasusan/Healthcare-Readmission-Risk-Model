@@ -18,6 +18,8 @@ This project predicts the risk of 30-day patient readmissions using clinical dat
 
 ## 📈 Sample Visuals
 
+## 📈 Sample Visuals
+
 <p float="left">
   <img src="readmission_distribution.png" width="400"/>
   <img src="gender_vs_readmission.png" width="400"/>
@@ -26,6 +28,10 @@ This project predicts the risk of 30-day patient readmissions using clinical dat
 <p float="left">
   <img src="age_vs_readmission.png" width="400"/>
   <img src="feature_importance.png" width="400"/>
+</p>
+
+<p float="left">
+  <img src="roc_curve.png" width="400"/>
 </p>
 
 ## 📁 Files Included
