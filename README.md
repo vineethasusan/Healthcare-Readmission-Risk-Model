@@ -18,8 +18,15 @@ This project predicts the risk of 30-day patient readmissions using clinical dat
 
 ## 📈 Sample Visuals
 
-<img src="readmission_distribution.png" width="400"/>  
-<img src="feature_importance.png" width="400"/>
+<p float="left">
+  <img src="readmission_distribution.png" width="400"/>
+  <img src="gender_vs_readmission.png" width="400"/>
+</p>
+
+<p float="left">
+  <img src="age_vs_readmission.png" width="400"/>
+  <img src="feature_importance.png" width="400"/>
+</p>
 
 ## 📁 Files Included
 - `Healthcare_Readmission_Risk_Model.ipynb` – Complete Jupyter code
