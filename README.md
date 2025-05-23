@@ -19,19 +19,31 @@ This project predicts the risk of 30-day patient readmissions using clinical dat
 
 ## 📈 Sample Visuals
 
-<p float="left">
-  <img src="readmission_distribution.png" width="400"/>
-  <img src="gender_vs_readmission.png" width="400"/>
-</p>
+## 📈 Sample Visuals & Key Insights
 
-<p float="left">
-  <img src="age_vs_readmission.png" width="400"/>
-  <img src="feature_importance.png" width="400"/>
-</p>
+<table>
+  <tr>
+    <td><img src="readmission_distribution.png" width="400"/></td>
+    <td><img src="gender_vs_readmission.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td><b>🔍 Insight:</b> Around 30% of patients were readmitted within 30 days.</td>
+    <td><b>🔍 Insight:</b> Slightly higher readmission observed in male patients.</td>
+  </tr>
+  <tr>
+    <td><img src="age_vs_readmission.png" width="400"/></td>
+    <td><img src="feature_importance.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td><b>🔍 Insight:</b> Older age groups tend to have higher readmission risk.</td>
+    <td><b>🔍 Insight:</b> Comorbidity count, length of stay, and physician notes were most predictive.</td>
+  </tr>
+</table>
 
-<p float="left">
-  <img src="roc_curve.png" width="400"/>
-</p>
+<div align="center">
+  <img src="roc_curve.png" width="420"/>
+  <p><b>🔍 Insight:</b> AUC of ~0.82 indicates strong model performance distinguishing readmissions.</p>
+</div>
 
 ## 📁 Files Included
 - `Healthcare_Readmission_Risk_Model.ipynb` – Complete Jupyter code
