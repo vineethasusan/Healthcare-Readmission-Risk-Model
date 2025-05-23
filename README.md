@@ -16,9 +16,6 @@ This project predicts the risk of 30-day patient readmissions using clinical dat
 - Length of Stay, Discharge Type, Follow-Up Scheduled
 - TF-IDF from `PhysicianNotes`
 
-
-## 📈 Sample Visuals
-
 ## 📈 Sample Visuals & Key Insights
 
 <table>
@@ -27,22 +24,22 @@ This project predicts the risk of 30-day patient readmissions using clinical dat
     <td><img src="gender_vs_readmission.png" width="400"/></td>
   </tr>
   <tr>
-    <td><b>🔍 Insight:</b> Around 30% of patients were readmitted within 30 days.</td>
-    <td><b>🔍 Insight:</b> Slightly higher readmission observed in male patients.</td>
+    <td><b>🔍 Insight:</b> ~28–30% of patients were readmitted within 30 days (moderate class imbalance).</td>
+    <td><b>🔍 Insight:</b> Female patients had more total admissions, but readmission rates are similar across genders.</td>
   </tr>
   <tr>
     <td><img src="age_vs_readmission.png" width="400"/></td>
     <td><img src="feature_importance.png" width="400"/></td>
   </tr>
   <tr>
-    <td><b>🔍 Insight:</b> Older age groups tend to have higher readmission risk.</td>
-    <td><b>🔍 Insight:</b> Comorbidity count, length of stay, and physician notes were most predictive.</td>
+    <td><b>🔍 Insight:</b> Median age is consistent across groups; readmitted patients have slightly broader age range.</td>
+    <td><b>🔍 Insight:</b> Age is the strongest predictor, followed by length of stay and comorbidity count.</td>
   </tr>
 </table>
 
 <div align="center">
   <img src="roc_curve.png" width="420"/>
-  <p><b>🔍 Insight:</b> AUC of ~0.82 indicates strong model performance distinguishing readmissions.</p>
+  <p><b>🔍 Insight:</b> Logistic Regression outperforms Random Forest here with AUC ~0.82 vs ~0.70.</p>
 </div>
 
 ## 📁 Files Included
