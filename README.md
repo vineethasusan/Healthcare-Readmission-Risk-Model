@@ -16,7 +16,6 @@ This project predicts the risk of 30-day patient readmissions using clinical dat
 - Length of Stay, Discharge Type, Follow-Up Scheduled
 - TF-IDF from `PhysicianNotes`
 
-## 📈 Sample Visuals
 
 ## 📈 Sample Visuals
 
